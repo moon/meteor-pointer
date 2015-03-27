@@ -1,4 +1,4 @@
-#Meteor Pointer Events
+# Meteor Pointer Events
 
 Provides a unified way to handle touch and mouse events in Meteor via Template evenMaps.
 
