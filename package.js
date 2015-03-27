@@ -5,7 +5,7 @@
 Package.describe({
   name: 'moonco:pointer',
   summary: 'Moon pointer events',
-  version: '0.0.1',
+  version: '0.0.2',
   git: 'https://github.com/moon/pointer'
 });
 
