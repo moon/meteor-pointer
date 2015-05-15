@@ -5,7 +5,7 @@
 Package.describe({
   name: 'moonco:pointer',
   summary: 'Moon pointer events',
-  version: '0.0.3',
+  version: '0.0.4',
   git: 'https://github.com/moon/meteor-pointer'
 });
 
@@ -21,7 +21,7 @@ Package.onUse(function(api) {
   // Exports
   //------------------------------
 
-  api.export('Pointer');
+  api.export('Pointer', 'client');
 
   //------------------------------
   // Dependancies
@@ -34,7 +34,7 @@ Package.onUse(function(api) {
     'templating',
     'jquery',
 
-  ]);
+  ], 'client');
 
   //------------------------------
   // Files
